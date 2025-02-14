@@ -1,0 +1,70 @@
+site_name: Power System Lab 
+site_dir: D:\Web development projects\first_next\pslab\public
+site_url: https://sitename.example
+extra:
+  favicon: 'favicon.png'
+
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - navigation.expand
+    - navigation.tabs.sticky
+  palette:
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Dark mode
+      primary: 'black'
+      accent: 'indigo'
+
+    # Light Mode 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Light mode
+      primary: 'indigo'
+      accent: 'amber'
+  
+markdown_extensions:
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - admonition
+  - pymdownx.details
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - custome.css  # Corrected filename
+
+extra_javascript:
+  - js/expand_nav.js
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  
