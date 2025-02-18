@@ -1,3 +1,8 @@
+Manual_Lf pdf click on the link to open it 
+
+
+<a href="/manual_LF.pdf" target="_blank">Manual LF</a>
+
 ``` data title="busno_fdlf.dat"
 1        %Slack bus number
 0.001    %Loadflow convergence tolerance

@@ -1,11 +1,13 @@
 site_name: Power System Lab 
-site_dir: D:\Web development projects\first_next\pslab\public
+site_dir: D:\Web development projects\electrical_machine\mkdocs
 site_url: https://sitename.example
 extra:
   favicon: 'favicon.png'
-
+  
 theme:
   name: material
+  toc:
+    depth: 2 
   font:
     text: Merriweather Sans
     code: Red Hat Mono

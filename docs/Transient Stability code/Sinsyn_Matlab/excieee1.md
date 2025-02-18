@@ -1,3 +1,11 @@
+Case Study word document : 
+
+<a href="/case_study.doc" target="_blank">Case Study</a>
+
+Sinsyn_man word document 
+
+<a href="/sinsyn_man.doc" target="_blank">Sinsyn_Man</a>
+
 ``` data title="Excieee1.dat"
 
 .397

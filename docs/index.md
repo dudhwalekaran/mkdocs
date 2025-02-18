@@ -1,36 +1,23 @@
-# Homepage
+# Learning 
+
+## This is the home page of power system lab 
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-<a href="/split.pdf" target="_blank">Never split the difference</a>
+This are some example of uploaded pdf files 
 
-
-
-Here is the PDF directly embedded below:
-
-<a href="/lean.pdf" target="_blank">Click here to view the PDF</a>
-
-
-Here is the PDF directly embedded below:
-
-<a href="/influence.pdf" target="_blank">Click here to view the PDF</a>
-
-
-Here is the PDF directly embedded below:
-
-<a href="/the.pdf" target="_blank">Click here to view the PDF</a>
-
+<a href="/manual_sss" target="_blank">Manual SSS</a>
 
 
 # YouTube Video Example
 
-Here’s an embedded YouTube video:
+Here’s an Example embedded YouTube video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FpnibJ0CHW0?si=UnLDid0b1ZoN2hxC" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DzyX_GnSnL0?si=6_6EUCiJHiUz1dO5" frameborder="0" allowfullscreen></iframe>
 
 # Local Video Example
 
-Here’s a local video embedded:
+Here’s an example local video embedded:
 
 <video width="100%" height="auto" controls>
   <source src="/matrix.mp4" type="video/mp4">
@@ -39,6 +26,8 @@ Here’s a local video embedded:
 
 
 # Screenshot Example
+
+Following is the example of image upload
 
 <div style="position: relative; display: inline-block;">
   <!-- Image that opens in a new tab when clicked -->
@@ -53,26 +42,6 @@ Here’s a local video embedded:
          style="position: absolute; top: 10px; right: 10px; cursor: pointer; width: 24px;">
   </a>
 </div>
-
-
-# Slide 1: Introduction
-
-This is the first slide of the presentation.
-
----
-
-# Slide 2: Main Content
-
-Here's the main content of the presentation.
-
----
-
-# Slide 3: Conclusion
-
-Thank you for attending the presentation!
-
-
-
 
 ## Commands
 
@@ -126,7 +95,4 @@ def bubble_sort(items):
 
 
 I Like to drink :beers: after I played :soccer:
-
-
-
 
