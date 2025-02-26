@@ -1,16 +1,12 @@
 #!/bin/bash
-set -e
+set -e  # Exit immediately if a command exits with a non-zero status
 
-# Install Python and pip
-export PYTHON_VERSION=3.9
-curl -fsSL https://www.python.org/ftp/python/$PYTHON_VERSION/Python-$PYTHON_VERSION.tgz | tar xz
-cd Python-$PYTHON_VERSION
-./configure && make && sudo make install
-cd ..
-
-# Install dependencies
+# Install Python dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
 
 # Build MkDocs site
 mkdocs build
+
+# Ensure output directory exists
+mkdir -p site
