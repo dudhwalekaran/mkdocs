@@ -1,11 +1,17 @@
 #!/bin/bash
-set -e  # Exit immediately if a command exits with a non-zero status
+set -e  # Stop script if any command fails
 
-# Install Python dependencies
-pip install --upgrade pip
-pip install -r requirements.txt
+# Check if Python is installed
+if ! command -v python3 &>/dev/null; then
+    echo "Python3 is not installed. Installing now..."
+    apt update && apt install -y python3 python3-pip
+fi
 
-# Build MkDocs site
+# Upgrade pip & install dependencies
+pip3 install --upgrade pip
+pip3 install -r requirements.txt
+
+# Build the MkDocs site
 mkdocs build
 
 # Ensure output directory exists
