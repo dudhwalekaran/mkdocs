@@ -1,0 +1,14 @@
+# Ignore virtual environments
+mkdocs_env/
+venv/
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore the MkDocs output directory
+site/
+
+# Ignore IDE-specific files (like VSCode)
+.vscode/
+desktop.ini
