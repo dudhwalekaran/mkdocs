@@ -1,5 +1,5 @@
 site_name: Power System Lab 
-site_dir: site
+site_dir: public
 site_url: https://sitename.example
 extra:
   favicon: 'favicon.png'
