@@ -1,19 +1,19 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "mkdocs.yml",
-        "use": "@vercel/python",
-        "config": {
-          "installCommand": "pip3 install -r requirements.txt",
-          "buildCommand": "mkdocs build",
-          "outputDirectory": "site"
-        }
-      },
-      {
-        "src": "site/**",
-        "use": "@vercel/static"
+  "version": 2,
+  "builds": [
+    {
+      "src": "mkdocs.yml",
+      "use": "@vercel/python",
+      "config": {
+        "installCommand": "python3 -m pip install -r requirements.txt", 
+        "buildCommand": "mkdocs build",
+        "outputDirectory": "site"
       }
-    ],
-    "outputDirectory": "site"
-  }
+    },
+    {
+      "src": "site/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "outputDirectory": "site"
+}
