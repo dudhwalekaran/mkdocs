@@ -14,8 +14,5 @@ python3 -m pip install mkdocs mkdocs-material mkdocs-awesome-pages-plugin
 # Ensure MkDocs is accessible
 export PATH=$HOME/.local/bin:$PATH
 
-# Run MkDocs build
+# Run MkDocs build (it will create a 'site' directory)
 python3 -m mkdocs build
-
-# Move `site` to `public` for Vercel (IMPORTANT)
-mv site public
