@@ -5,7 +5,7 @@
         "src": "mkdocs.yml",
         "use": "@vercel/python",
         "config": {
-          "installCommand": "pip3 install mkdocs",
+          "installCommand": "pip3 install -r requirements.txt",
           "buildCommand": "mkdocs build",
           "outputDirectory": "site"
         }
