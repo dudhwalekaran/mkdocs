@@ -17,5 +17,5 @@ export PATH=$HOME/.local/bin:$PATH
 # Run MkDocs build
 python3 -m mkdocs build
 
-# Ensure output directory exists
-mkdir -p site
+# Move `site` to `public` for Vercel (IMPORTANT)
+mv site public
