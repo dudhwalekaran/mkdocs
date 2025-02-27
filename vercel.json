@@ -1,0 +1,17 @@
+{
+    "builds": [
+      {
+        "src": "mkdocs.yml",
+        "use": "@vercel/python",
+        "config": {
+          "buildCommand": "mkdocs build",
+          "outputDirectory": "site"
+        }
+      },
+      {
+        "src": "site/**",
+        "use": "@vercel/static"
+      }
+    ],
+    "installCommand": "pip3 install mkdocs"
+  }
