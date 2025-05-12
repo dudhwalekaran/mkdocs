@@ -12,6 +12,7 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   features:
+    - 'content.code.copy'
     - navigation.tabs
     - navigation.footer
     - navigation.expand

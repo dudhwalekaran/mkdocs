@@ -83,7 +83,7 @@ import tensorFlow as if
 def whatever ()
 ```
 
-#### With a title 
+#### This is the title
 
 ``` py title="bubble_sort.py"
 def bubble_sort(items):
