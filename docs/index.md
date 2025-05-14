@@ -93,4 +93,15 @@ def bubble_sort(items):
             items[j], items[j + 1] = items[j + 1], items [j]
 ```
 
-This is the education site of the pslab 
+# Welcome to My Java Docs Site
+
+This is a simple MkDocs-powered documentation site for Java tutorials.
+
+Below is a basic Java program to print "Hello, world!" to the console:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}

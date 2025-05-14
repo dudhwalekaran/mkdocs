@@ -2,29 +2,12 @@
   "version": 2,
   "builds": [
     {
-
-      "src": "build.sh",
+      "src": "mkdocs.yml",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "site"
-      },
-      "src": "mkdocs.yml",
-      "use": "@vercel/python",
-      "config": {
-        "installCommand": "python3 -m pip install -r requirements.txt",
         "buildCommand": "mkdocs build",
-        "outputDirectory": "site"
+        "distDir": "site"
       }
-    },
-    {
-      "src": "site/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/site/$1"
     }
   ]
 }
