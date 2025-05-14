@@ -104,7 +104,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
     }
-}
+}```
 
 Simple Tutorial: Editing and Deploying Your MkDocs Site
 Step 1: Edit the Content in /docs Folder
@@ -113,7 +113,6 @@ Navigate to the /docs folder in your project directory.
 Edit or add new content in Markdown files (e.g., index.md, about.md).
 
 For example, open the index.md file and add some content like:
-
 
 # Welcome to Pslab MkDocs Site
 This is my awesome site built with MkDocs. 🎉
