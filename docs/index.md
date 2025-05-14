@@ -93,5 +93,4 @@ def bubble_sort(items):
             items[j], items[j + 1] = items[j + 1], items [j]
 ```
 
-Nowdays a IPL is going on so i like to watch full ipl match everday
-
+This is the PSLAB Education Content site!
