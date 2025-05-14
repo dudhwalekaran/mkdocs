@@ -105,3 +105,83 @@ public class HelloWorld {
         System.out.println("Hello, world!");
     }
 }
+
+Simple Tutorial: Editing and Deploying Your MkDocs Site
+Step 1: Edit the Content in /docs Folder
+Navigate to the /docs folder in your project directory.
+
+Edit or add new content in Markdown files (e.g., index.md, about.md).
+
+For example, open the index.md file and add some content like:
+
+
+# Welcome to Pslab MkDocs Site
+This is my awesome site built with MkDocs. 🎉
+
+## About
+Here's a brief introduction to what this site is about.
+Save your changes.
+
+Step 2: Add and Commit the Changes
+After you’ve made your changes in the /docs folder, use Git to add and commit the updates.
+
+Open your terminal or command prompt in the project directory.
+
+Check the status to see what’s been modified:
+
+bash
+Copy
+Edit
+git status
+Stage the changes you made to the /docs folder:
+
+bash
+Copy
+Edit
+git add docs/
+Commit the changes with a message describing your update:
+
+bash
+Copy
+Edit
+git commit -m "Added new content to the site"
+Step 3: Push the Changes to GitHub
+Once your changes are committed, push them to your GitHub repository:
+
+bash
+Copy
+Edit
+git push origin main
+This will push the updates to the main branch on GitHub.
+
+Vercel will automatically detect the changes in the repo, build the site using mkdocs build, and deploy the content from the /site folder to your live website.
+
+Step 4: Check the Live Website
+After pushing to GitHub, wait a moment for Vercel to rebuild the site.
+
+Go to your Vercel dashboard and check the deployments section for the most recent deployment.
+
+Visit your live website and confirm that your changes have been reflected.
+
+Recap of Required Git Commands
+bash
+Copy
+Edit
+# Check the status of your repository
+git status
+
+# Stage your changes (files you've edited)
+git add docs/
+
+# Commit your changes with a descriptive message
+git commit -m "Added new content to the site"
+
+# Push your changes to GitHub
+git push origin main
+Final Notes:
+Always make changes in the /docs folder — this is where your content lives.
+
+Don’t push the /site folder to GitHub! Vercel will handle that part when it builds the site.
+
+After pushing, Vercel will automatically rebuild the site and deploy the latest version.
+
