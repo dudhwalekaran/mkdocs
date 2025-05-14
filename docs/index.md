@@ -93,4 +93,4 @@ def bubble_sort(items):
             items[j], items[j + 1] = items[j + 1], items [j]
 ```
 
-This is the PSLAB Education Content site!
+This is the education site of the pslab 
