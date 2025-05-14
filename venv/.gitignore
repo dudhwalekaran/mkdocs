@@ -5,6 +5,8 @@ venv/
 # Ignore Python cache files
 *.pyc
 __pycache__/
+site/
+public/
 
 # Ignore IDE-specific files (like VSCode)
 .vscode/
